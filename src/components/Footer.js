@@ -234,7 +234,7 @@ export default function Footer() {
         <div className="text-center p-3 bg-muted text-muted">
           © 2023 Copyright: &nbsp;
           <a className="text-muted" href="/">
-            Team Tubelight
+            Team MGNEER
           </a>
         </div>
       </footer>
