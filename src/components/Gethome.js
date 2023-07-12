@@ -1,5 +1,8 @@
 import React from 'react'
 import "./styles/gethome.css"
+import pic1 from "./images/Home1.png"
+import pic2 from "./images/Home2.png"
+import pic3 from "./images/Home3.png"
 function Gethome() {
   return (
     <div>
@@ -29,20 +32,20 @@ function Gethome() {
               </h1>
           </div>
         </h2>
-      <div class="get-home-container">
-        <div class="get-home-card" style={{color:"#009688"}}>
-            <div class="imgBx">
-                <img src="logo-removebg-preview.png" alt=""/>
+      <div  className="get-home-container">
+        <div  className="get-home-card" style={{color:"#009688"}}>
+            <div  className="imgBx">
+                <img src={pic1} alt=""/>
             </div>
-            <div class="content">
-                <h2>Home 1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel est nobis, nostrum vitae eligendi esse excepturi ipsa sunt aliquid?</p>
-                <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+            <div  className="content">
+                <h2>Snehodiya</h2>
+                <p>Address: Street Number 165, Action Area 1B, Newtown, Kolkata, West Bengal 700156</p>
+                <div  className="rating">
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-regular fa-star"></i>
                     <span>4/5</span>
                     
                 </div>
@@ -50,41 +53,41 @@ function Gethome() {
                 <a href="*">Read More</a>
             </div>
         </div>
-        <div class="get-home-card" style={{color:"#ff3e7f"}}>
-            <div class="imgBx">
-                <img src="logo-removebg-preview.png" alt=""/>
+        <div  className="get-home-card" style={{color:"#ff3e7f"}}>
+            <div  className="imgBx">
+                <img src={pic2} alt=""/>
             </div>
-            <div class="content">
-                <h2>Home 2</h2> 
+            <div  className="content">
+                <h2>Natun Ghar</h2> 
                                
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel est nobis, nostrum vitae eligendi esse excepturi ipsa sunt aliquid?</p>
-                <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <span>4/5</span>
+<p>Address: AD-369, Rabindrapally, Kestopur, Kolkata, West Bengal 700101</p>
+                <div  className="rating">
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-regular fa-star"></i>
+                    <span>5/5</span>
                     
                 </div>
     
                 <a href="*">Read More</a>
             </div>
         </div>
-        <div class="get-home-card" style={{color:"#03a9f4"}}>
-            <div class="imgBx">
-                <img src="logo-removebg-preview.png" alt=""/>
+        <div  className="get-home-card" style={{color:"#03a9f4"}}>
+            <div  className="imgBx">
+                <img src={pic3} alt=""/>
             </div>
-            <div class="content">
-                <h2>Home 3</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel est nobis, nostrum vitae eligendi esse excepturi ipsa sunt aliquid?</p>
+            <div  className="content">
+                <h2>The Golden Mile</h2>
+                <p>Address: JG68+39V, Chandpur, Near Lauhati Behind Vedic Village, Newtown, Lauhati, West Bengal 700135</p>
                 
-                <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                <div  className="rating">
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-regular fa-star"></i>
                     <span>4/5</span>
                     
                 </div>

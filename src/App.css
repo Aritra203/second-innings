@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
 
 
 
@@ -64,7 +65,7 @@
   /* font-family: sans-serif; */
   /* font-family: open-sans; */
   /* font-family: "Open Sans", sans-serif; */
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Quicksand';
   color: white;
   font-size: 1.1rem;
 }
@@ -152,3 +153,17 @@ h1 {
   
 }
 
+
+::-webkit-scrollbar{
+  width: 8px;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(to top, #0A203C, #17A5BF);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(to top, #90CED3, #15A6BF);
+}

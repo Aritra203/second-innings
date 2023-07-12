@@ -40,6 +40,7 @@ export default function Home() {
       {/* <div className="">
           <img className="graphic rounded img-fluid" src={graphic} alt="" />
         </div> */}
+        <section className="home-sec">
       <div className="main mb-5  ">
         <div className="row d-flex mx-auto  ">
           <div className="text col-sm-5 px-5  ">
@@ -68,11 +69,7 @@ export default function Home() {
             </div>
             <div className="sub-text my-5 fs-5 text-white">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Mollitia dolorum voluptate, laudantium accusantium deserunt eos
-                explicabo, ipsa exercitationem asperiores voluptatum illum quasi
-                id, sequi impedit nobis. Doloremque corporis veritatis neque?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Our website can provide comprehensive information about various old age homes, including their location, facilities, services, and the level of care provided. This helps senior citizens and their families make informed decisions about choosing the right home for their specific need. Moreover, our website also caters the condition of adopting a parent. Also, it provides a source of employment as a caregiver or volunteer those who want to look after the aged people.
               </span>
             </div>
             {/* <Link to="https://discord.gg/m6AMnhBXwn" className="">
@@ -80,22 +77,34 @@ export default function Home() {
                 Contact Us
               </button>
             </Link> */}
-            <a href="https://discord.gg/m6AMnhBXwn" target="blank">
+            <a href="tel: 6290374022" target="blank">
               <button
                 type="button"
                 className="btn btn-warning text-dark btn-sm mb-5"
-                style={{ backgroundColor: "#90CED3" }}
+                style={{ backgroundColor: "#15A6BF" }}
               >
                 
-                <i class="fa-sharp fa-solid fa-paper-plane fa-fade text-light"></i>{" "}
-                <span className="text-light"> &nbsp; Contact Us</span>
+                <i  className="fa-sharp fa-solid fa-phone fa-fade text-light"></i>{" "}
+                <span className="text-light"> &nbsp; 1800 111 363</span>
+              </button>
+            </a>
+
+            <a href="/volunteer" target="blank">
+              <button
+                type="button"
+                className="btn btn-warning text-dark btn-sm mb-5"
+                style={{ backgroundColor: "#15A6BF" }}
+              >
+                
+                <i  className="fa-sharp fa-solid fa-person fa-fade text-light"></i>{" "}
+                <span className="text-light"> &nbsp; Become a volunteer</span>
               </button>
             </a>
           </div>
 
           <span className="col-sm-7 homeCar  ">
-            <div class="container">
-              <div class="image-container">
+            <div  className="container">
+              <div  className="image-container">
                 <img src={img} alt="Background" className="home-pic h-5 img-fluid" style={{height:"37rem"}} />
               
               </div>
@@ -108,7 +117,7 @@ export default function Home() {
       <Domains></Domains>
       {/* TESTIMONIAL */}
       <Testimonial></Testimonial>
-      
+      </section>
     </>
   );
 }
